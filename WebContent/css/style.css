@@ -1,0 +1,22 @@
+#profilegrid {
+	display: grid;
+	grid-template-columns: 1fr 2fr 2fr;
+	position: absolute;  
+	width: 100%; 
+	height: 20%;  
+}
+
+#pfp {
+	margin: auto; 
+	width: 50%;
+    display: block;
+    object-fit: cover;
+}
+#profileButtonDiv{
+	 grid-column-start: 1;
+	 grid-column-end: 4;
+	 margin: auto; 
+}
+#logOutDiv{
+	justify-content: right; 
+}
